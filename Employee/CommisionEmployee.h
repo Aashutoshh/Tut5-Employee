@@ -8,7 +8,8 @@ public:
 	void setBaseSalary(float bs);
 	void setRate(float rat);
 	void setRevenue(float rev);
-	CommisionEmployee();
+	float salary();
+	CommisionEmployee(string na, int stNo) :Employee(na, stNo){};
 	~CommisionEmployee();
 };
 

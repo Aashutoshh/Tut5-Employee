@@ -86,6 +86,7 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="HourlyEmployee.cpp" />
     <ClCompile Include="SalaryEmployee.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

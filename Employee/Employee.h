@@ -3,15 +3,15 @@
 using namespace std;
 class Employee
 {
-private: 
-	
+protected:
 	string name;
 	int staffNo;
-protected: 
+ 
 	float sal;
 public:
 	Employee(string nam, int stNo);
 	Employee();
+	int noOfEmp();
 	float salary();
 	~Employee();
 };

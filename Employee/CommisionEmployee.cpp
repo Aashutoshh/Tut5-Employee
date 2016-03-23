@@ -1,9 +1,12 @@
 #include "CommisionEmployee.h"
+#include <string>
+using namespace std;
 
-
-CommisionEmployee::CommisionEmployee()
+/*CommisionEmployee::CommisionEmployee(string na , int stNo ) :Employee(na,stNo )
 {
-}
+	name = na;
+	staffNo = stNo;
+}*/
 
 void CommisionEmployee::setBaseSalary(float bs)
 {
@@ -18,6 +21,10 @@ void CommisionEmployee::setRevenue(float rev){
 	revenue = rev;
 }
 
+float CommisionEmployee::salary()
+{
+	return baseSalary + rate * revenue;
+}
 CommisionEmployee::~CommisionEmployee()
 {
 }
