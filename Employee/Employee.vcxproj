@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CommisionEmployee.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="HourlyEmployee.h" />
     <ClInclude Include="SalaryEmployee.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CommisionEmployee.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="HourlyEmployee.cpp" />
     <ClCompile Include="SalaryEmployee.cpp" />
